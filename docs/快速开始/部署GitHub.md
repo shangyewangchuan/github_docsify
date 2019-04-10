@@ -2,7 +2,7 @@
 
 ?> 将`docsify`部署在GitHub上，既不用租用服务器，也不用担心维护的问题。
 
-## 创建GitHub仓库
+### 1.创建GitHub仓库
 
   <center>
     <img style="border-radius: 0.3125em;
@@ -28,7 +28,7 @@
     padding: 2px;">复制Git SSH</div>
  </center>
 
-## 将本地仓库文件push到GitHub仓库
+### 2.将本地仓库文件push到GitHub仓库
 
 ```bash
 //切换到工作目录
@@ -43,5 +43,37 @@ $ git remote add docsofy git@github.com:shangyewangchuan/docsify.git
 $ git push docsofy master
 ```
 
-## 开启GitHub Pages
+!> 前提： 已经设置了GitHub SSH秘钥！否则，无法提交。
 
+### 3.开启GitHub Pages
+
+   <center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://raw.githubusercontent.com/shangyewangchuan/material/master/img/github_3.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">进入仓库设置页面</div>
+  </center>
+
+<br>
+
+   <center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://raw.githubusercontent.com/shangyewangchuan/material/master/img/github_4.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">设置master/docs开启GitHub Pages</div>
+  </center>
+
+
+
+
+?> 访问https://shangyewangchuan.github.io/github_docsify/ 即可食用！
+
+!> 需要一段时间后`GitHub Pages`才可以正常解析
