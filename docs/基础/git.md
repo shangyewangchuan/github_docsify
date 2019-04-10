@@ -1,10 +1,12 @@
 # Git
 
+?> Git是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。
+
 > ## Git高清技能图谱
 
 !> 建议右键放大观看
 
-> ### Git的用法
+### Git的用法
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -47,4 +49,4 @@
 
 ![Git ——分布式世界](https://raw.githubusercontent.com/shangyewangchuan/material/master/img/Git%20%E2%80%94%E2%80%94%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%96%E7%95%8C.png)
 
-> ## [Git三剑客-Git常见命令速查表](https://github.com/shangyewangchuan/github_docsify/blob/master/PDF/Git%E4%B8%89%E5%89%91%E5%AE%A2-Git%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8.pdf)
+> ## [Git三剑客-Git常见命令速查表](https://shangyewangchuan.github.io/material/docs/Git%E4%B8%89%E5%89%91%E5%AE%A2-Git%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8.pdf)
