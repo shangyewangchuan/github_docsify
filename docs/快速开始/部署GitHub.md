@@ -38,9 +38,9 @@ $ git add .
 //将暂存区缓存提交到主分支
 $ git commit -m'change'
 //添加远程Git仓库
-$ git remote add docsofy git@github.com:shangyewangchuan/docsify.git
+$ git remote add docsify git@github.com:shangyewangchuan/docsify.git
 //将本地文件推到远程仓库
-$ git push docsofy master
+$ git push docsify master
 ```
 
 !> 前提： 已经设置了GitHub SSH秘钥！否则，无法提交。
