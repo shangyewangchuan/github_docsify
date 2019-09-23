@@ -45,6 +45,8 @@ $ git push docsify master
 
 !> 前提： 已经设置了GitHub SSH秘钥！否则，无法提交。
 
+!> 注意：后续提交需要在`push`操作之前先执行`$ git pull docsify master`，同步远程仓库到本地并合并，以防`push`失败。
+
 ### 3.开启GitHub Pages
 
    <center>
