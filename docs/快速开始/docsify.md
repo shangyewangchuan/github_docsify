@@ -132,3 +132,31 @@ $ docsify init docs
 !> 阻止 GitHub Pages 忽略下划线开头的文件
 
 `_*.md`
+
+### 支持 mermaid解析器
+
+> 内置的 Markdown 解析器是 marked。
+
+```js
+// Import mermaid
+//  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+//  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+mermaid.initialize({ startOnLoad: false });
+
+window.$docsify = {
+  markdown: {
+    renderer: {
+      code: function(code, lang) {
+        if (lang === "mermaid") {
+          return (
+            '<div class="mermaid">' + mermaid.render(lang, code) + "</div>"
+          );
+        }
+        return this.origin.code.apply(this, arguments);
+      }
+    }
+  }
+}
+```
+!> `<link>`和`<script>`加入到<head>中，`mermaid.initialize`加入到`<script>`中。
